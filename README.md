@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Calen-Dear
+📅 Scheduling App – Cross-Platform Calendar Booking  This project is a practice application that allows users to schedule meetings or appointments directly on someone else’s calendar. The app integrates with multiple major calendar providers, making scheduling simple, fast, and automatic.
 
-## Getting Started
 
-First, run the development server:
+*What It Does
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Lets others book a time slot on your calendar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Supports major calendar platforms including:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Google Calendar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Microsoft Outlook / Office 365
 
-## Learn More
+Apple Calendar (iCloud)
 
-To learn more about Next.js, take a look at the following resources:
+Yahoo Calendar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Zoom Meetings (event creation)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Automatically syncs booked events with your calendar of choice.
 
-## Deploy on Vercel
+Prevents double-booking by checking real-time availability.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Provides a clean, user-friendly interface for selecting times.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Purpose of the Project
+    
+This is a practice application created to explore:
+
+Calendar API integrations
+
+OAuth authentication flows
+
+Cross-platform event syncing
+
+Backend scheduling logic and conflict detection
+
+Frontend UI/UX for booking and time selection
